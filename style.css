@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo2{
+    margin-top: 110px;
+    margin-right: 50px;
+    max-width: 130%;
+    max-height: 80%;
+}
+.leftsect{
+    margin-left: 100px;
+    margin-top: 140px;
+}
+.heading{
+    font-size: 90px;
+    font-weight: 800;
+}
+.para{
+    font-size: 30px;
+    font-weight: 700;
+    margin-block: 5px;
+}
+.bt2{
+    margin-block: 60px;
+    width: 270px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.bt1{
+    width: 270px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.logo{
+    margin-top: 30px;
+     margin-left: 100px;
+}
+span{
+    color: blueviolet;
+}
+.bt1:hover{
+    background-color: green;
+    transition: 0.4s;
+    color: rgb(209, 208, 148);
+    text-decoration-style: wavy;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    color: greenyellow;
+    transition: 0.3s;
+}
+.bt2:hover{
+    background-color: green;
+    transition: 0.4s;
+    color: rgb(209, 208, 148);
+}
